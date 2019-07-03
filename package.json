@@ -1,5 +1,5 @@
 {
-  "name": "part2tutorial",
+  "name": "notes",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,7 +15,6 @@
     "eject": "react-scripts eject",
     "server": "json-server -p3001 db.json"
   },
-  "proxy": "http://localhost:3001",
   "eslintConfig": {
     "extends": "react-app"
   },
@@ -33,5 +32,6 @@
   },
   "devDependencies": {
     "json-server": "^0.15.0"
-  }
+  },
+  "proxy": "http://localhost:3001"
 }

@@ -4,7 +4,7 @@
       "id": 1,
       "content": "HTML is easy",
       "date": "2019-05-30T17:30:31.098Z",
-      "important": false
+      "important": true
     },
     {
       "id": 2,
@@ -19,40 +19,16 @@
       "important": true
     },
     {
-      "content": "a new note...",
-      "date": "2019-06-30T15:48:12.807Z",
+      "content": "POST is used to add data to a REST api",
+      "date": "2019-05-31T10:37:37.759Z",
       "important": false,
       "id": 4
     },
     {
-      "content": "Another new note!",
-      "date": "2019-06-30T15:52:12.524Z",
-      "important": true,
+      "content": "Network tab of devtools is most benefical",
+      "date": "2019-05-31T10:41:46.058Z",
+      "important": false,
       "id": 5
-    },
-    {
-      "content": "Hello!",
-      "date": "2019-06-30T16:01:06.878Z",
-      "important": true,
-      "id": 6
-    },
-    {
-      "content": "Hello!",
-      "date": "2019-06-30T16:24:14.549Z",
-      "important": false,
-      "id": 7
-    },
-    {
-      "content": "a new note...",
-      "date": "2019-06-30T17:40:55.212Z",
-      "important": false,
-      "id": 8
-    },
-    {
-      "content": "",
-      "date": "2019-06-30T17:41:00.869Z",
-      "important": false,
-      "id": 9
     }
   ]
 }
