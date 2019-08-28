@@ -81,6 +81,7 @@ const App = () => {
         username, password
       })
 
+      noteService.setToken(user.token)
       setUser(user)
       setUsername('')
       setPassword('')
@@ -135,12 +136,14 @@ const App = () => {
       <h2>Login</h2>
       {user === null ?
         loginForm() :
-        noteForm()}
-      <div>
+        <div>
+          <p>{user.name} logged in</p>
+          {noteForm()}
+        </div>
+      }
         <button onClick={() => setShowAll(!showAll)}>
           show {showAll ? 'important' : 'all'}
         </button>
-      </div>
       <ul>
         {rows()}
       </ul>
